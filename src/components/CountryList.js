@@ -5,7 +5,8 @@ const CountryList = ({countries}) => {
     const listOfMappedCountries = countries.map((country) => {
         return <Country 
                 countryName={country.name.common} 
-                countryCapital={country.capital}/>
+                countryCapital={country.capital}
+                flag={country.flags.png}/>
     })
 
     return (
