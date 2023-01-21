@@ -1,12 +1,13 @@
 import React from "react";
 
-const Country = ({countryName, countryCapital, flag}) => {
+const Country = ({name, capital, flag, population}) => {
 
 
     return(
         <div>
-            <h2>Name: {countryName}</h2>
-            <h4>Capital:{countryCapital}</h4>
+            <h2>{name}</h2>
+            <h4>{!capital ? name + " has no capital" : name + "'s capital is " + capital}</h4>
+            <h5>{population === 0 ? "No one lives in " + name : population + " people live in " + name}</h5>
             <img src={flag}/>
         </div>
     )

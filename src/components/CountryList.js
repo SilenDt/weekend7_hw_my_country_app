@@ -4,8 +4,9 @@ import Country from "./Country";
 const CountryList = ({countries}) => {
     const listOfMappedCountries = countries.map((country) => {
         return <Country 
-                countryName={country.name.common} 
-                countryCapital={country.capital}
+                name={country.name.common} 
+                capital={country.capital}
+                population={country.population}
                 flag={country.flags.png}/>
     })
 
