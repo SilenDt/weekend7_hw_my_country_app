@@ -1,11 +1,12 @@
 import React from "react";
 
-const Country = () => {
+const Country = ({countryName, countryCapital}) => {
 
 
     return(
         <div>
-            <h4>Country</h4>
+            <h2>Name: {countryName}</h2>
+            <h4>Capital:{countryCapital}</h4>
         </div>
     )
 }
