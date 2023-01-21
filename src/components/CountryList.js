@@ -7,7 +7,8 @@ const CountryList = ({countries}) => {
                 name={country.name.common} 
                 capital={country.capital}
                 population={country.population}
-                flag={country.flags.png}/>
+                flag={country.flags.png}
+                key={country.index}/>
     })
 
     return (
