@@ -8,6 +8,7 @@ const CountryList = ({countries}) => {
                 capital={country.capital}
                 population={country.population}
                 flag={country.flags.png}
+                coatOfArms={country.coatOfArms.png}
                 key={country.index}/>
     })
 

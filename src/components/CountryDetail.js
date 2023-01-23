@@ -8,7 +8,9 @@ const CountryDetail = ({country}) => {
                 capital={country.capital}
                 population={country.population}
                 flag={country.flags.png}
-                key={country.index}/>
+                coatOfArms={country.coatOfArms.png}
+                key={country.index}
+                />
         </div>
     )
 }
