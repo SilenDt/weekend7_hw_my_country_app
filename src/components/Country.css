@@ -16,6 +16,12 @@
 .flag {
     color: rgb(83, 187, 152);
 }
+
+.flag-pic {
+    border-radius: 15px;
+    border: solid rgb(83, 187, 152)
+}
+
 .coatOfArms {
     max-width: 75px;
     color: rgb(53, 208, 157);

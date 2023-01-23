@@ -11,7 +11,7 @@ const Country = ({name, capital, flag, population, coatOfArms}) => {
             <h5 className="population">{population === 0 ? "No one lives in " + name : population + " people live here"}</h5>
             <h4 className="flag">Flag: </h4>
                 <div>
-                    <img  className="flag" src={flag}/>
+                    <img  className="flag-pic" src={flag}/>
                 </div>
             <h4 className="coatOfArms">{!coatOfArms ? "This country does not have a Coat Of Arms" : "Coat Of Arms: " }</h4>
                 <div>
