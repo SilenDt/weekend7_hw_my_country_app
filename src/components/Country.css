@@ -10,7 +10,7 @@
 }
 
 .population {
-    color:rgb(30, 70, 173)
+    color:rgb(98, 81, 224)
 }
 
 .flag {
@@ -27,4 +27,11 @@
     color: rgb(53, 208, 157);
 }
 
+.red {
+    color: red;
+}
+
+.underline {
+    text-decoration: underline;
+}
 
