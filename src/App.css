@@ -1,0 +1,51 @@
+body, html {
+  /* background-image: url("https://images.unsplash.com/photo-1531266752426-aad472b7bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"); */
+  background-image: url("https://wallpaperaccess.com/full/419597.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.country-container {
+  align-self: center;
+}
+
+.header {
+  color: rgb(71, 137, 85);
+  font-family: cursive;
+}
+
+.country-box {
+  padding: 10px;
+  margin: 10px;
+}
+
+.country-drop-down {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(149, 208, 242);
+}
+
+.country {
+}
+
+.country-detail {
+  margin: 15px;
+  opacity: .90;
+
+}
+
+.flag {
+  border: aquamarine;
+  border-radius: 10px;
+}
+
+
+

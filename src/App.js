@@ -4,7 +4,9 @@ import CountryBox from './containers/CountryBox';
 
 function App() {
   return (
-    <CountryBox/>
+    <div className='country-container'>
+      <CountryBox/>
+    </div>
   );
 }
 

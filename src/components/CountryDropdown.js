@@ -14,7 +14,7 @@ const CountryDropdown = ({countries, onCountrySelected}) => {
     })
 
     return (
-        <select defaultValue="" onChange={handleChange}>
+        <select className="country-drop-down" defaultValue="" onChange={handleChange}>
             <option value="" selected>Choose Country
             </option>
             {countryOptions}

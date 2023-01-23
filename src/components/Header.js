@@ -5,8 +5,8 @@ const Header = () => {
 
 
     return(
-        <div>
-            <h2 className="header">Country's Of The World</h2>
+        <div className="header">
+            <h1>Pick A Country:</h1>
         </div>
     )
 }

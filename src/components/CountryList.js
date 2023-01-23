@@ -12,7 +12,7 @@ const CountryList = ({countries}) => {
     })
 
     return (
-        <div>
+        <div className="country-list">
             <h3>Country List</h3>
             {listOfMappedCountries}
         </div>

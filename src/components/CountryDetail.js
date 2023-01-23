@@ -2,7 +2,7 @@ import Country from "./Country"
 
 const CountryDetail = ({country}) => {
     return (
-        <div>
+        <div className="country-detail">
             <Country 
                 name={country.name.common} 
                 capital={country.capital}
@@ -14,3 +14,5 @@ const CountryDetail = ({country}) => {
 }
 
 export default CountryDetail
+
+

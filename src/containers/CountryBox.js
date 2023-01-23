@@ -24,7 +24,7 @@ const CountryBox = () => {
         setSelectedCountry(country)
     }
     return (
-        <div>
+        <div className="country-box">
             <Header/>
                 {/* <CountryList countries={countries}/> */}
             <CountryDropdown countries={countries} onCountrySelected={onCountrySelected}
